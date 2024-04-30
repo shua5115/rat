@@ -6,7 +6,7 @@ function rat_test(label, val)
     print(label..":", val, val:tonumber())
 end
 
-a = rat(0.5)
+a = rat(1,2)
 b = rat(1/3)
 
 rat_test("a", a)
